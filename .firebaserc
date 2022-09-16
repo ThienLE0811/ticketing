@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "seabank-dev"
+  },
+  "targets": {
+    "seabank-dev": {
+      "hosting": {
+        "sb-ticketing-tttn": [
+          "sb-ticketing-tttn"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

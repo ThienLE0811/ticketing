@@ -1,0 +1,175 @@
+@import '~antd/es/style/variable.less';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-pro-sider.ant-layout-sider.ant-pro-sider-fixed {
+  left: unset;
+}
+
+header.ant-layout-header.ant-pro-layout-header-fixed-header-action {
+  background-image: linear-gradient(120deg, #78909c 0%, #37474f 100%);
+}
+
+.ant-pro .ant-pro-layout .ant-pro-layout-bg-list {
+  background: linear-gradient(#eceff1, #f3f3f3 28%);
+}
+
+.ant-pro-table {
+  table tr:nth-child(2n) td {
+    background-color: rgb(242, 249, 254);
+  }
+}
+
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+
+.ant-pro-card.ant-pro-table-search.ant-pro-table-search-query-filter {
+  // padding: 10px 10px 0;
+  border: 1px dashed;
+  border-color: #607d8b;
+}
+
+main .ant-pro-page-container-children-content {
+  margin-block: 12px;
+  margin-inline: 12px;
+}
+
+.ant-pro-form-login-logo {
+  width: 261px !important;
+  margin: 0px;
+}
+
+
+.ant-pro-global-header-logo h1 {
+  color: #607d8b !important;
+}
+
+// Modal
+.ant-modal-body {
+  .ant-pro-page-container-children-content {
+    margin-block: 8px;
+    margin-inline: 12px;
+  }
+}
+
+.ant-pro .ant-pro-query-filter {
+  padding: 8px;
+}
+
+.ant-pro-table-list-toolbar-container {
+  padding-block: 6px;
+}
+
+
+.ant-pro-sider-collapsed-button {
+  color: #fff !important;
+  background: #ff4e4f !important;
+}
+
+.ck-editor__editable_inline {
+  min-height: 150px;
+  // border: 1px solid #d9d9d9 !important;
+  background: #fafafa;
+}
+
+.ant-pro-top-nav-header-menu {
+  .ant-menu-item-selected.ant-pro-base-menu-menu-item {
+    background: #ffffff !important;
+    box-shadow: 0px 2px 5px 1px #26323887;
+  }
+}
+
+li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-selected span {
+  color: #2c2c2c !important;
+  font-weight: bold;
+}
+
+li.ant-menu-overflow-item.ant-menu-item span {
+  color: white !important;
+}
+
+.ant-table-pagination.ant-pagination {
+  margin: 6px 0 !important;
+}
+
+
+.ant-pro-table-list-toolbar {
+  overflow-x: inherit;
+}
+
+.ticket-protable {
+  th.ant-table-cell {
+    white-space: pre;
+    // width: 'max-content';
+  }
+
+  .ant-tabs-tab {
+    color: #393838;
+  }
+}
+
+.ant-pro-table-column-setting-overlay .ant-popover-inner-content {
+  width: 360px !important;
+}
+
+
+.card-fill-header {
+  // border-radius: 10px !important;
+  border-color: #ec301e;
+
+  .ant-pro-card-header.ant-pro-card-header-border {
+    background-image: linear-gradient(120deg, rgb(235, 44, 31) 0%, rgb(234, 76, 27) 100%);
+    // border-radius: 8px 8px 0 0;
+
+    .ant-pro-card-title {
+      color: #fff;
+      font-weight: 600;
+    }
+  }
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+
+    &-thead>tr,
+    &-tbody>tr {
+
+      >th,
+      >td {
+        white-space: pre;
+
+        >span {
+          display: block;
+        }
+      }
+    }
+  }
+}
